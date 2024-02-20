@@ -3,9 +3,11 @@
     <el-container>
       <el-header>
         <h2>
-          <el-avatar src="/static/img/lizi.jpg" size="small"></el-avatar>
-          大电老师活字印刷 <small> 纯前端版{{ version }}</small>
+          <el-avatar src="/static/img/qcdd.jpg" size="small"></el-avatar>
+          浅唱大帝活字印刷
         </h2>
+       <p>网站纯属娱乐，不关于现实生活中的人物，请不要对号入座</p>
+       <a href="https://wbgx.pw/box/">返回浅唱盒</a>
       </el-header>
       <el-main>
         <el-row>
@@ -26,7 +28,7 @@
                 </el-form-item>
                 <el-form-item label="生成">
                   <el-button type="primary" @click="generate" :loading="!isComplete">{{
-                      isComplete ? "生成otto鬼叫" : "生成中"
+                      isComplete ? "生成浅唱狗叫" : "生成中"
                     }}
                   </el-button>
                 </el-form-item>
@@ -129,18 +131,6 @@
               </el-button-group>
             </el-card>
 
-            <h4>艺术殿堂</h4>
-            <el-card shadow="never">
-              <el-space wrap>
-                <el-avatar src="/static/img/lizi.jpg" size="large"
-                           @click="showArt('/static/music/Bones - 欠债调音师.mp3', 'Bones - 欠债调音师')"/>
-                <el-avatar src="/static/img/rk5.jpg" size="large"
-                           @click="showArt('/static/music/I Got Smoke - V在燃烧.mp3', 'I Got Smoke - V在燃烧')"/>
-                <el-avatar src="/static/img/ccvbn.jpg" size="large"
-                           @click="showArt('/static/music/Ccvbn -（完）电棍：波西唢呐狂想曲.mp3', 'Ccvbn -（完）电棍：♿波西唢呐狂想曲♿')"/>
-                <div>点击头像听音乐</div>
-              </el-space>
-            </el-card>
             <h4>注意事项</h4>
             <el-card shadow="never">
               <el-space wrap class="proj-info">
@@ -165,24 +155,24 @@
                   </li>
                   <li>
                     <div>
-                      感谢光临并使用本项目。如果对项目有其他构想或建议或Bug也欢迎到Github链接下方提Issue，合理的建议会及时采纳。
+                      感谢光临并使用本项目，非常感谢github项目：【HanaYabuki/otto-hzys】的实现，并修改，下面为原内容信息将不作修改，浅唱语音为本站所有，一切代码权力由原作者所有
                     </div>
                   </li>
                 </ul>
               </el-space>
             </el-card>
             <el-divider/>
-            <el-descriptions title="作品信息"
+            <el-descriptions title="原项目作品信息"
                              border
                              :column="2">
-              <el-descriptions-item label="作者">
+              <el-descriptions-item label="原作者">
                 会唱歌的花枝丸
                 的
                 <el-link href="https://space.bilibili.com/496956009" type="primary">Bilibili</el-link>
                 和
                 <el-link href="https://github.com/HanaYabuki" type="primary">Github</el-link>
               </el-descriptions-item>
-              <el-descriptions-item label="Github仓库">
+              <el-descriptions-item label="原Github仓库来源">
                 <el-link href="https://github.com/HanaYabuki/otto-hzys/tree/master" type="primary">
                   HanaYabuki/otto-hzys
                 </el-link>
@@ -223,7 +213,7 @@ const crunker = new Crunker()
 export default {
   setup() {
     const formData = reactive({
-      text: '大家好啊，我是说的道理',
+      text: '大家好啊，我是不甘心',
       isYsdd: true,
       isSliced: false,
     })
