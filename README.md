@@ -1,4 +1,4 @@
-#浅唱大帝活字印刷 qcdd-hzys
+# 浅唱大帝活字印刷 qcdd-hzys
 [浅唱盒点我](https://wbgx.pw/box/)
 
 ## 简介
