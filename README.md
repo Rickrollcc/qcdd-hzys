@@ -3,6 +3,7 @@
 
 ## 简介
 浅唱大帝语音活字印刷生成器。
+目前网站由于有些音频没有对应的拼音所以会报错
 
 最原始项目 [sakaneko117/HUOZI](https://github.com/sakaneko117/HUOZI)，
 原项目 [HanaYabuki/otto-hzys](https://github.com/HanaYabuki/otto-hzys)，在此基础上将电棍otto改为浅唱源
