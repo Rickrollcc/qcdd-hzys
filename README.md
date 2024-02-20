@@ -1,28 +1,18 @@
-# ♿ 大电老师活字印刷 otto-hzys
-[https://otto-hzys.hanayabuki.cf](https://otto-hzys.hanayabuki.cf)
+#浅唱大帝活字印刷 qcdd-hzys
+[浅唱盒点我](https://wbgx.pw/box/)
 
-## 🚮 简介
-电棍otto语音活字印刷生成器。  
-启发于项目 [sakaneko117/HUOZI](https://github.com/sakaneko117/HUOZI)，架构采用纯前端。（虽然Fork了，但全改了）
+## 简介
+浅唱大帝语音活字印刷生成器。
 
-前端样式采用组件库 element-plus。部署于 vercel 平台。
+最原始项目 [sakaneko117/HUOZI](https://github.com/sakaneko117/HUOZI)，
+原项目 [HanaYabuki/otto-hzys](https://github.com/HanaYabuki/otto-hzys)，在此基础上将电棍otto改为浅唱源
 
-软件采用 MIT 协议开源，您可以在浏览器中免费的使用它。
+## 功能说明
 
-## 🛂 功能说明
-
-### 🛃 介绍
-+ 活字印刷：将文本转为电棍otto的语音。
+### 介绍
++ 活字印刷：将文本转为浅唱的语音。
 + 效果通道：在浏览器中试听时，可以适当调整内置效果器的参数，以达到更丰富的整活效果。
-+ 艺术殿堂：被封禁的神圣作品会在本网站内保存补档，若想增加可以在issue区投稿补档。
 
-### 🚻 原理
-+ 将汉字和英文字母转换为汉语拼音，在语音库内查找比对并进行拼接。（可恶，不要以为这个很简单啊！光是增加一个原声大碟模式就让我多写了一个晚上啊可恶可恶可恶！！！）
-+ 效果组采用了 Pizzicato.js 开源库
+## 说明
 
-### 🛅 参数
-+ 太多了讲不完了！请自行了解学习人声音频处理！
-
-## 🚼 开源
-本项目采用 MIT 开源协议    
-父项目用的不知道什么开源协议
+另外非常感谢原项目作者的制作，本项目仅娱乐，浅唱是猫鼠手游圈的“名人”，详情请去b站自行搜索浅唱大帝
